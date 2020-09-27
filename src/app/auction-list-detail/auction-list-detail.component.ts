@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Auction } from '../auction/auction';
+import { Auction } from '../shared/auction';
 import { CURRENCY_STRING } from '../app.constants';
 import { Router } from '@angular/router';
 

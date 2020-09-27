@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Auction } from '../auction/auction'
+import { Auction } from './auction'
 import { AUCTION_DATA } from './auction-data'
 import { Observable, of } from 'rxjs';
 
