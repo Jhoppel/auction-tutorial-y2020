@@ -11,6 +11,8 @@ import { AuctionDataService} from './shared/auction-data.service';
 import { AngularDateHttpInterceptorService} from './shared/angular-date-http-interceptor.service';
 import { AuctionDetailComponent } from './auction-detail/auction-detail.component';
 import { HelperService} from './shared/helper.service';
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HelperService} from './shared/helper.service';
     AuctionListComponent,
     MouseEventDisplayComponent,
     AuctionListDetailComponent,
-    AuctionDetailComponent
+    AuctionDetailComponent,
+    HomeComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
