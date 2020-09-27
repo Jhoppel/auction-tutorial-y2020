@@ -1,8 +1,0 @@
-<p>auction-list works!</p>
-<h3 (click)="onTitleClicked($event)">{{headerTitle}}</h3>
-
-<div *ngFor="let auction of auctions; let isOdd=odd; ">
-    <div>
-        <app-auction-list-detail [class.highlight]="isOdd" [auction]=auction></app-auction-list-detail>
-    </div>
-</div>

@@ -24,10 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/popper.js/dist/umd/popper.min.js",
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -91,11 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/popper.js/dist/umd/popper.min.js",
-              "./node_modules/font-awesome/css/font-awesome.min.css",
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -126,12 +119,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "auction-tutorial-y2020",
-  "schematics": {
-    "@schematics/angular:component": {
-      "styleext": "scss"
-    }
-  }
+    }},
+  "defaultProject": "auction-tutorial-y2020"
 }
